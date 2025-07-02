@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: Api
+kind: API
 metadata:
   name: equinoble
   annotations:
     github.com/project-slug: equinor/equinoble
 spec:
-  type: other
-  lifecycle: unknown
+  type: openapi
+  lifecycle: experimental
   owner: sw-enabling-team-developers
