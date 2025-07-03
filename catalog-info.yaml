@@ -4,8 +4,10 @@ metadata:
   name: equinoble
   annotations:
     github.com/project-slug: equinor/equinoble
+    backstage.io/definition-at-location: 'url:https://app-echomodeldist-prod.azurewebsites.net/swagger/index.html'
 spec:
   type: openapi
   lifecycle: experimental
   owner: sw-enabling-team-developers
-  description: https://app-echomodeldist-prod.azurewebsites.net/swagger/index.html
+  description: 
+    $text: https://app-echomodeldist-prod.azurewebsites.net/swagger/index.html
